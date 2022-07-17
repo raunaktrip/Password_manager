@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "476854236408",
+    "firebase_url": "https://notes-and-password-manag-cb3e0-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "notes-and-password-manag-cb3e0",
+    "storage_bucket": "notes-and-password-manag-cb3e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476854236408:android:56df8502bec15d9a74b70d",
+        "android_client_info": {
+          "package_name": "com.example.notesandpasswordmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476854236408-ub0fqsflgpj7pmaihpjvvt6pnibuagig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notesandpasswordmanager",
+            "certificate_hash": "606aa38efbc3dff3090c0eef3d6bbac9d4f95c5d"
+          }
+        },
+        {
+          "client_id": "476854236408-r01279fngo7e4fgjmh2l84q3dmvpodv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz3P66S5NK4UEqG1kMVOqcLNcPB3gmV3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476854236408-r01279fngo7e4fgjmh2l84q3dmvpodv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

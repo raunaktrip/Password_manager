@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pinset">
+
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+              android:layout_centerInParent="true">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                     android:layout_centerHorizontal="true"
+                     android:id="@+id/tv_pinsetup"
+                     android:textSize="60dp"
+                     android:layout_marginBottom="30dp"
+                  android:text="Set Up Pin"/>
+
+              <com.chaos.view.PinView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  app:itemCount="4"
+                  style="@style/PinWidget.PinView"
+                android:layout_centerHorizontal="true"
+                  android:id="@+id/pinview1"
+                  android:layout_below="@+id/tv_pinsetup"
+                  android:padding="20dp"
+                  android:inputType="numberPassword"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                     android:text="Confirm Pin"
+                     android:id="@+id/tv_pin_confirm"
+                     android:textSize="20dp"
+                  android:layout_centerHorizontal="true"
+                     android:layout_below="@id/pinview1"/>
+              <com.chaos.view.PinView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  app:itemCount="4"
+                  style="@style/PinWidget.PinView"
+                  android:layout_centerHorizontal="true"
+                  android:id="@+id/pinview2"
+                  android:layout_below="@+id/tv_pin_confirm"
+                  android:padding="20dp"
+                  android:inputType="numberPassword"/>
+              <Button
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                     android:text="Submit"
+                     android:id="@+id/btn_pin"
+                     android:layout_below="@+id/pinview2"
+                     android:layout_centerHorizontal="true"/>
+
+
+       </RelativeLayout>
+
+</RelativeLayout>

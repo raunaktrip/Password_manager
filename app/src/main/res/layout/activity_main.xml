@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:orientation="vertical">
+     <com.google.android.material.textfield.TextInputLayout
+         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:hint="Password Name"
+         android:id="@+id/text_input_password_name">
+         <com.google.android.material.textfield.TextInputEditText
+             android:layout_width="200dp"
+             android:layout_height="wrap_content"
+             android:id="@+id/password_name"
+             android:layout_centerHorizontal="true"
+
+             android:padding="10dp"
+             android:layout_margin="4dp"/>
+     </com.google.android.material.textfield.TextInputLayout>
+
+     <com.google.android.material.textfield.TextInputLayout
+         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/text_input_password_name"
+         android:hint="Password "
+         android:id="@+id/text_input_password">
+         <com.google.android.material.textfield.TextInputEditText
+             android:layout_width="200dp"
+             android:layout_height="wrap_content"
+             android:layout_margin="4dp"
+             android:id="@+id/password"
+             android:layout_centerHorizontal="true"
+
+             android:padding="10dp"/>
+     </com.google.android.material.textfield.TextInputLayout>
+
+
+        >
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/text_input_password"
+             android:text="submit"
+             android:layout_centerInParent="true"
+             android:id="@+id/submit_button"/>
+
+   </RelativeLayout>
+
+
+
+
+</RelativeLayout>
